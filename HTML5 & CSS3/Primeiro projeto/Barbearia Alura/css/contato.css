@@ -1,0 +1,141 @@
+Header {
+	background: #BBBBBB;
+}
+
+.caixa{
+	width: 1040px;
+	position: relative;
+	margin: 0 auto;
+}
+
+nav {
+	position: absolute;
+	top: 110px;
+	right: 0;
+}
+
+
+nav li {
+	display: inline;
+	margin: 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-weight: bold;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #C78C19;
+	text-decoration: underline;
+}
+
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form legend {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 5px;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 10px;
+    padding: 5px 10px;
+    width: 25%;
+}
+
+#horario {
+	margin: 20px 0 0 0;
+}
+
+.checkbox {
+	margin: 20px 0;
+}
+
+.enviar {
+	width: 15%;
+	padding: 0.7% 0.7%;
+	background: #CCCCCC;
+	font-weight: bold;
+	border: 1px solid black;
+	border-radius: 5px;
+	transition: all 0.4s linear;
+	cursor: pointer;
+}
+
+.enviar:hover {
+	background: grey;
+	transform: scale(1.05);
+}
+
+table {
+	margin: 20px 0 40px;
+}
+thead {
+	background: #555555;
+	color: white;
+	font-weight: bold;
+}
+
+td, th {
+	border: 1px solid black ;
+	padding: 4px 4px;
+}
+
+footer {
+	text-align: center;
+	background: url(../img/bg.jpg);
+}
+
+.copyright {
+	color: white;
+	font-size: 13px;
+}
+
+@media only screen and (min-width: 375px) {
+	.caixa {
+		width: 375px;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+	}
+
+	.texts {
+		margin: 5px 0 0 5px;
+	}
+
+	.noticia {
+		width: 375px;
+		line-height: 1px;
+	}
+
+	.enviar {
+		margin: 10px 0 0 0;
+	}
+
+	table {
+		margin: 0px 0px 5px 122.89px;
+
+	}
+
+	form {
+		margin: 0 0 10px 0;
+	}
+}
